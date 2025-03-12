@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikah Invitation</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #2d1b47;
+            font-family: 'Times New Roman', serif;
+            text-align: center;
+            color: #fff;
+            margin: 0;
+            padding: 20px;
+        }
+        .invitation-card {
+            background: linear-gradient(to bottom, #3e2763, #2d1b47);
+            border: 5px solid gold;
+            border-radius: 20px;
+            padding: 30px;
+            max-width: 500px;
+            margin: auto;
+            position: relative;
+        }
+        .header h2 {
+            font-size: 24px;
+            color: gold;
+            margin-bottom: 10px;
+        }
+        .names {
+            font-size: 28px;
+            font-weight: bold;
+            color: gold;
+        }
+        .details {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+        .bride-groom img {
+            width: 200px;
+            height: auto;
+            margin-top: 20px;
+        }
+        .decorations {
+            position: absolute;
+            top: 10px;
+            left: 0;
+            right: 0;
+        }
+        .lantern {
+            width: 50px;
+            height: 100px;
+            background: url('lantern.png') no-repeat center;
+            background-size: contain;
+            position: absolute;
+        }
+        .lantern.left { left: 10px; }
+        .lantern.right { right: 10px; }
+    </style>
+</head>
+<body>
+    <div class="invitation-card">
+        <div class="header">
+            <h2 class="arabic-calligraphy">وَجَعَلْنَا مِنْهُمْ أَزْوَاجًا وَذُرِّيَّةً</h2>
+            <p>With the blessings of Allah, we are delighted to invite you to the Nikah ceremony of:</p>
+        </div>
+        <h1 class="names">Samira & Farhan</h1>
+        <p class="details">25th December 2025, 12:45 PM</p>
+        <p class="details">123 Anywhere St., Any City, ST 12345</p>
+        
+        <div class="bride-groom">
+            <img src="bride-groom-placeholder.png" alt="Bride and Groom Illustration">
+        </div>
+        
+        <div class="decorations">
+            <div class="lantern left"></div>
+            <div class="lantern right"></div>
+        </div>
+    </div>
+</body>
+</html>
